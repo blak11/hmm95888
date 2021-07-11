@@ -20,6 +20,7 @@ const db = require('quick.db');
 client.config = require("./config/bot.json")
 client.build = require("./config/build.json")
 
+
 fs.readdir('./src/events/', (err, files) => {
     if (err) return console.log(err);
     files.forEach(file => {
